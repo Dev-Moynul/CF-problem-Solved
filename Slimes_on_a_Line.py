@@ -6,4 +6,4 @@ for _ in range(t):
     a = list(map(int, input().split()))
     mn = min(a)
     mx = max(a)
-    sys.stdout.write((mx - min + 1)//2)
+    sys.stdout.write(str((mx - mn + 1) // 2) + "\n")
