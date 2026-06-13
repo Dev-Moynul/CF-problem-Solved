@@ -1,9 +1,7 @@
 import sys
-input = sys.
+input = sys.stdin.readline
 n, m = map(int, input().split())
-
 ans = 0
-
 for a in range(32):
     b = n - a * a
 
