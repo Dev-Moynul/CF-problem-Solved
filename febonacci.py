@@ -10,5 +10,4 @@ while a <= r:
                 one = True
         else:
             print(a)
-
     a, b = b, a + b
