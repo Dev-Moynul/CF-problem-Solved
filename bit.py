@@ -1,9 +1,8 @@
 import sys
 input = sys.stdin.readline
-
+x = 0
 for _ in range(int(input())):
     n = (input())
-    x = 0
     if "++" in n:
         x +=1
     else:
