@@ -1,15 +1,13 @@
 from collections import Counter
+import sys
+input = sys.stdin.readline
 
-t = int(input())
-
-for _ in range(t):
+for _ in range(int(input())):
     n = int(input())
     a = list(map(int, input().split()))
-
     cnt = Counter(a)
 
-    ans = 0
-    for x in cnt.values():
-        ans += x // 2
-
-    print(ans)
+    r = 0
+    for i in cnt.values():
+        r += i // 2 
+    print(r)
