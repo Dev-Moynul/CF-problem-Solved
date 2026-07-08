@@ -11,5 +11,7 @@ for ch in(s):
             l +=1
 if l > u:
     print(s.lower())
+elif l == u:
+    print(s.lower())
 else:
     print(s.upper())
